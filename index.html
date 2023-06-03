@@ -1,0 +1,1402 @@
+<!Doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="onetrack ONETRACK">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="onetrack ONETRACK">
+   <meta name="author" content="onetrack ONETRACK">
+   <title>onetrack</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Trade+Winds&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Creepster&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Alkatra&family=Creepster&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Trade+Winds&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Poppins:wght@400;500;700;800&family=Rubik+Wet+Paint&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="aos-by-red.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+<!--i want to flex my css! thats why im not giving the link file of css but directly flexing my css :)-->
+    <style type="text/css">
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:'poppins';
+        color: #b870ff;
+        scroll-behavior: smooth;
+    }
+    #body{
+        margin: 0;
+        padding:0;
+        user-select: none;
+
+    }
+    .backt{
+        background-image: url("https://img.freepik.com/free-vector/alien-planet-landscape-night-martian-surface_107791-14299.jpg");
+        display: grid;
+        padding-top: 12px;
+        background-attachment: fixed;
+        border-bottom: 2px solid rgb(0, 82, 235);
+    
+    }
+    .navf{
+        margin-top:0px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0;
+
+      
+    }
+    #first{
+        height: 100px;
+        width: 100px;
+        border: 3px solid rgb(0, 99, 247);
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px black;
+        background-color: rgb(84, 0, 180);
+        animation: navers .3s linear 1 alternate;
+        transition-duration: .2s;
+        transition-timing-function: linear;
+        margin: 0 auto;
+        position: relative;
+        bottom: -49px;
+
+    }
+    #circu1{
+        width:50px;
+        height: 50px;
+         background: linear-gradient( rgba(255, 255, 255, 0.096),rgba(255, 255, 255, 0.062),rgba(255, 255, 255, 0.055),rgba(255, 255, 255, 0)); 
+        display:flex;
+        backdrop-filter: 10px;
+        place-items: center;
+        justify-content: center;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius:50%;
+        box-shadow: 2px 2px 5px black;
+        margin-right: 5%;
+        animation-name: navers2;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        transition-duration: .3s;
+        transition-timing-function: linear;
+    } 
+    .hamd{
+        display:grid;
+    }
+    .burgr{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 5px black;
+        height:2px;
+        width:21px;
+        margin-bottom:5px;
+
+    }
+    .burgr1{
+        width: 16px;
+    }
+    .heis{
+        width: fit-content;
+        height: fit-content;
+        color: whitesmoke;
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 10px;
+        background-color: #045de9;
+        background-image: linear-gradient(to right, #206de0 , #c1d7e0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family:'Rubik Wet Paint', cursive;
+        animation: deslef 0.3s linear 1 alternate;
+    }
+  /*so here our nav is ending now wi'll start with body ;) */
+    .textu{
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        opacity:1;
+        margin: 20px auto;
+        background-color:#bbbbbbad;
+        background-image: linear-gradient(to right,#a1a1a1ec,#949494e3,#868686c9, #aa0101,#c40000);
+        width: fit-content;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /*uppers for boxing*/
+        /*lowers for texts*/
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-family: 'New Rocker', cursive;
+        position: relative;
+        /*anim */
+        animation: tex 0.3s linear 1 alternate;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;     
+  }
+ 
+  .talk{
+     
+      color: rgba(201, 225, 248, 0.76);
+      background-image: linear-gradient(to right, #0059fdee,#0055d4e0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align:justify ;
+      padding: 10px 25px;
+      font-size: 30px;
+      animation-name: texc;
+      animation-duration: 0.6s;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+      transition-duration: 0.3s;
+      transition-timing-function: linear;  
+  }
+
+  .talk p{
+    font-family: 'New Rocker', cursive;
+      font-family: 'Alegreya Sans SC', sans-serif;
+  }
+ 
+  .rakf{
+      display:grid;
+      justify-content: center;
+      place-items: center;
+      text-align: center;
+      color: rgb(68, 214, 0);
+      border: 2px outset rgb(214, 0, 0);
+      border-left: none;
+      border-right: none;
+      margin:0;
+      padding: 12px;
+      background-image: url("https://res.cloudinary.com/jerrick/image/upload/v1667458997/636367b5da5a81001da26d16.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: rgb(183, 220, 252);
+      width: auto;
+      height: 200px;
+      font-size: larger;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      animation: faltu .3s linear 1 alternate;
+      transition-duration: 0.3s;
+      transition-timing-function: linear;
+      margin-bottom: 50px;
+      /* https://a-static.besthdwallpaper.com/denji-hybrid-form-from-chainsaw-man-anime-wallpaper-1600x600-106071_84.jpg */
+
+  }
+ 
+  .inf{
+  
+      font-size: 40px;
+      font-family: 'New Rocker', cursive;
+      color: rgb(255, 255, 255);
+      background-color: #f8002f;
+      background-image: linear-gradient(326deg, #cc0025 50%, #bbbbbb 74%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: none;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+  }
+  .inf:hover{
+    background-image: linear-gradient(-326deg, #cc0025 50%, #bbbbbb 74%);
+  }
+  .main{
+    display: flex;
+    gap:60px;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+  }
+  .divspot{
+    position: relative;
+      display:grid;
+      justify-content: center;
+      place-items: center;
+      text-align: center;
+      border-radius: 30px;
+      box-shadow: 1px 1px 10px #000000;
+      margin: 0 20px;
+      padding: 12px;
+      width:300px;
+      border: 1px solid #1d1d1d;
+      height:auto;
+      transition-duration: 0.2s;
+      transition-timing-function: linear;
+      animation: divs 2s linear  2 alternate;
+
+
+  }
+
+
+  .a1{
+    background-color: #182b3a;
+    background-image: url("https://a-static.besthdwallpaper.com/chainsaw-man-opening-wallpaper-3840x2160-106092_54.jpg");
+    background-size: cover;
+    
+    
+    
+  }
+  .aone{
+    background-color: #182b3a;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/denji-chainsaw-man-devil-hunter-2880x1800-8970.jpg");
+    background-size: cover;
+   
+  }
+  .a2{
+    background-color: #42378f;
+    background-image:url("https://cdn.wallpapersafari.com/36/5/Q3Mf8V.jpg");
+    background-size: cover;
+    
+
+
+  }
+  .a3{
+    background-color: #663dff;
+    background-image: url("https://wallpapers.com/images/hd/1920x1080-anime-suguru-geto-red-blue-c4s2ts02znromhu4.jpg");
+    background-size: cover;
+  
+  }
+  .a4{
+background:url("https://a-static.besthdwallpaper.com/denji-hybrid-form-from-chainsaw-man-anime-wallpaper-2304x864-106071_86.jpg");
+background-size: cover;
+
+
+  }
+
+  /*imp curtain styling*/
+
+  .contet{
+    background-color:rgba(255, 255, 255, 0.11);
+    background-image: linear-gradient(to right, rgb(14, 13, 31),rgb(8, 11, 26),rgb(0, 0, 0));
+    background-image: url("https://images.alphacoders.com/128/1286017.jpg");
+    background-size: cover;
+    background-position: center;
+    
+      margin:0;
+      padding: 12px;
+      width:70%;
+      height:700px;
+      animation-name: hidee;
+      animation-duration: 0.3s;
+      animation-iteration-count: 1;
+      transition-duration: 0.3s;
+      position: fixed;
+      z-index: 400;
+      right: 0;
+
+  }
+  .button1{
+    width: 150px;
+    height: auto;
+    font-family:'Metal Mania', cursive;
+    font-size:17px;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 5px black; 
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8c009e, #390072);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #69138b, #420183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    animation-name: hidee;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    transition-duration: 0.3s;
+  }
+ 
+  .butncenter{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-top: 20px;
+  }
+
+  /*links and link images */
+
+  .links{
+    text-decoration: none;
+  }
+  .link_img{
+    height: 80px;
+    margin: 10px;
+    transition: all 1s;
+  }
+  .link_img:hover{
+    transform: scale(1.5);
+  }
+  .link_tex{
+    font-size: 21px;
+    font-family:'Rubik Wet Paint', cursive;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, rgb(1, 0, 83) 0%, #0051ff 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s;
+    
+  }
+  .link_tex:hover{
+    transform: scale(1.5);
+  }
+  .lastk{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.644);
+    margin: 12px;
+    text-transform: capitalize;
+  }
+
+  .radius{
+    width: auto;
+    height: auto;
+    padding:5px ;
+    margin: 0 15px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.144);
+    animation-name:revoke;
+    animation-iteration-count: 1;
+    animation-duration:2s;
+  }
+    .to_cent{
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+     
+    }
+
+    #article{
+        display: none;
+        gap: 20px;
+        width: fit-content;
+        height:auto;
+        padding: 30px 20px;
+        background-color:#161a27;
+        margin:20px auto;
+        border-radius:8px;
+        place-items: center;
+        position: relative;
+ 
+    }
+   
+    #article::after, #article::before {
+        content: "";
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        background: linear-gradient(45deg, red, #00ff0d,#000000, #cc01ff, red, #b700ff, #000000,#ff0101, #1eff00,  #000000 );
+        background-size: 400%;
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        z-index: -3;
+        animation: anim 10s linear infinite alternate;
+        border-radius: 8px;
+    }
+    #article::after{
+        filter: blur(30px);
+    }
+    @keyframes anim{
+        0%{
+            background-position: 0 0;
+        }
+        50%{
+            background-position: 100% 0;
+        }
+        100%{
+            background-position: 0 0;
+        }
+    }
+    </style>
+    <style>
+        
+ /*im making new stylsheet only for my designsv so there will be no confusions */
+   /* .design1{
+        animation-name: deslef;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }*/
+
+    .des{
+        width:200px ;
+        height: auto;
+        border: 1px outset rgba(255, 0, 0, 0.705);
+        border-left: 2px;
+        border-radius:8px;
+        margin: 0;
+        margin-bottom: 15px;
+        animation-name: deslef;
+        animation-duration: 0.3s;
+        animation-iteration-count:1;
+    }
+    .des:hover{
+        border: 1px outset rgb(54, 0, 0);
+        border-radius: 50%;
+
+    }
+    .des1{
+     
+    }
+    .des2{
+        border: 1px outset rgba(255, 0, 0, 0.651);
+        width:200px ;
+        transform: rotate(-10deg);
+        animation-name: deslef;
+        animation-duration: 0.8s;
+        animation-iteration-count:1;
+    }
+    .des3{
+       
+        width:200px ;
+         animation-name: deslef;
+        animation-duration: 0.5s;
+        animation-iteration-count:1;
+    }
+
+    /*space*/
+
+
+    .design2{
+    display: grid;
+    width:fit-content ;
+    float: right;
+    justify-content: center;
+}
+
+    .des5{
+        width:150px ;
+        height: auto;
+        border: 1px inset rgb(255, 0, 0);
+        border-radius: 50%px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        float: right;
+    }
+    .des6{
+        width: 200px;
+        float: right;
+    }
+    .des7{
+        width: 150px;
+        float: right;
+    }
+    /* space */
+    .design3{
+        display: grid;
+    width:fit-content ;
+    float: right;
+    justify-content: center;
+    }
+    .des8{
+        width:150px ;
+        height: auto;
+        border: 1px outset rgb(219, 0, 0);
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        float: right;
+        animation-name: desright;
+        animation-duration: 0.5s;
+        animation-iteration-count:1;
+    }
+    .des9{
+        width: 200px;
+        float: right;
+        animation-name: desright;
+        animation-duration: 0.3s;
+        animation-iteration-count:1;
+    }
+    .des10{
+        width: 150px;
+        float: right;
+        animation-name: desright;
+        animation-duration: 0.8s;
+        animation-iteration-count:1;
+    }
+
+    .liner{
+        width: auto;
+        height:auto;
+        border: 1px solid rgb(12, 117, 255);
+        margin: 0;
+
+    }
+    .ender{
+        border:2px solid white ;
+        border-radius: 30px;
+        color: #020202a6;
+        height: 40px;
+        width: 200px;
+      font-family: 'New Rocker', cursive;
+        font-size: 17px;
+        font-weight: bolder;
+        text-transform: capitalize;
+        background-color: #4158D0;
+        background-color: #00DBDE;
+        background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+        z-index: 2;
+        position: relative;
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+        bottom:0px;
+        transition-duration: .3s;
+    }
+
+
+    /*buttons */
+    
+    :root {
+  --text-color: #c6d9ec;
+  --shadow-color: hsla(210, 40%, 52%, .4);
+  --btn-color: hsl(210, 80%, 42%);
+  --bg-color: #141218;
+}
+
+button {
+  position:relative;
+  padding: 10px 20px;  
+  border: none;
+  background: none;
+  cursor: pointer;
+  
+  font-family: "Source Code Pro";
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;  
+  color: var(--text-color);
+  
+  background-color: var(--btn-color);
+  box-shadow: var(--shadow-color) 2px 2px 22px;
+  border-radius: 4px; 
+  z-index: 0;  
+  overflow: hidden;   
+}
+
+button:focus {
+  outline-color: transparent;
+  box-shadow: var(--btn-color) 2px 2px 22px;
+}
+
+.right::after, button::after {
+  content: var(--content);
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  padding: 40px 40px;
+  pointer-events:none;
+}
+
+button::after{
+  font-weight: 200;
+  top: -30px;
+  left: -20px;
+} 
+
+.right, .left {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.right {
+  left: 66%;
+}
+.left {
+  right: 66%;
+}
+.right::after {
+  top: -30px;
+  left: calc(-66% - 20px);
+  
+  background-color: var(--bg-color);
+  color:transparent;
+  transition: transform .4s ease-out;
+  transform: translate(0, -90%) rotate(0deg)
+}
+
+button:hover .right::after {
+  transform: translate(0, -47%) rotate(0deg)
+}
+
+button .right:hover::after {
+  transform: translate(0, -50%) rotate(-7deg)
+}
+
+button .left:hover ~ .right::after {
+  transform: translate(0, -50%) rotate(7deg)
+}
+
+/* bubbles */
+  button::before{
+     content: '';
+     pointer-events: none;
+     opacity: .6;
+     background:
+    radial-gradient(circle at 20% 35%,  transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 75% 44%, transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+
+     width: 100%;
+     height: 300%;
+     top: 0;
+     left: 0;
+    position: absolute;
+    animation: bubbles 5s linear infinite both;
+   }
+    .navf::before{
+    content: '';
+     pointer-events: none;
+     opacity: .6;
+     background:
+    radial-gradient(circle at 20% 35%,  transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 75% 44%, transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+
+     width: 100%;
+     height: 300%;
+     top: 0;
+     left: 0;
+    position: absolute;
+    animation: bubbles 5s linear infinite both;
+   }
+
+
+   
+
+
+@keyframes bubbles {
+  from {
+    transform: translate();
+  }
+  to {
+    transform: translate(0, -66.666%);
+  }
+}
+    </style>
+    <style>
+        
+    /*jhjhjhjhj*/
+
+     /* this stylesheet dedicated for my love=(keyframes); */
+
+
+     @keyframes ranim{
+            0%{
+                background-position: 0 0 ;
+            }
+            50%{
+                background-position: 100% 0;
+            }
+            100%{
+                background-position: 0 0;
+            }
+        }
+
+
+     @keyframes navers{
+        from{
+            transform: translateY(-180px);
+        }
+        to{
+            transform: translateY(0px);
+        }
+    }
+    @keyframes navers2{
+        from{
+            transform: translateX(100px);
+        }
+   
+        to{
+            transform:translateX(0px);
+        }
+    }
+
+    /*keys for design*/
+    @keyframes deslef{
+        from{
+            transform:translateX(-300px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+
+    @keyframes desright{
+        from{
+            transform: translateX(300px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+
+    /*for textu*/
+    @keyframes tex{
+        from{
+            transform: scale(0.9) translateX(-200px);
+        }
+
+        to{
+            transform: scale(1) translateX(0px);   
+        }
+    }
+
+    @keyframes texc{
+        from{
+            transform: translateX(-500px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+    @keyframes faltu{
+        from{
+           
+        }
+        to{
+            
+        }
+    }
+
+    @keyframes revoke{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+    @keyframes hidee{
+        from{
+            opacity: 0;
+            transform: translateY(200px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+  
+
+
+    /*hover overssssssssssssssss*/
+
+    #first:hover{
+        transform: scale(1.2) perspective(100px);   
+        border: 3px solid rgb(255, 255, 255);
+    }
+    .circu1:hover{
+     transform: scale(1.1);   
+    }
+
+    .textu:hover{
+        
+        opacity: 0.5;
+      }
+
+      .rakf:hover{
+        border-bottom: 2px outset red;
+    
+    }
+    .divspot:hover{
+       transform: scale(1.5) skew(5deg,10deg);
+    }
+    .button1:hover{
+        transform:translateY(10px) skew(8deg, -11deg) scale(1.3);
+
+      }
+      .ender:hover{
+        transform: scale(0.2);
+    }
+
+    </style>
+
+   <!-- flexing javascript also-->
+
+   <script type="text/javascript">
+    /* scripting for hiding and curtains*/
+    let sky=()=> {
+       var x = document.getElementById("noner");
+        var n= document.getElementById("curt");
+
+        // if(x.style.display == "block"){
+        //     x.style.display ="none";
+        // }
+        // else{
+        //     x.style.display = "block"
+        // }
+
+        if(n.style.display == "none"){
+            n.style.display ="block";
+        }
+        else{
+            n.style.display = "none";
+        }
+        
+    }
+
+    // for bgcolor change
+   
+
+    //coooonsoleeeee
+        console.log( Math.floor(Math.random()*100 + 1));
+        console.log( Math.floor(Math.random()*1000 + 1));
+        console.log( Math.floor(Math.random()*10000 + 1));
+        console.log( Math.floor(Math.random()*100000 + 1));
+        console.log( Math.floor(Math.random()*1000000 + 1));
+        console.log( Math.floor(Math.random()*100000000 + 1));
+
+
+   </script>
+
+   <style>
+    #deadsays{
+        width: auto;
+    }
+    #deadreads{
+        width:auto;
+     
+
+    }
+    .creative{
+        padding: 20px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .creative h1{
+       width:fit-content;
+       color: #7e7e7ee1;
+       text-align: justify;
+       background-image: linear-gradient(to right, #004bee , #0060dd , #8400ff  );
+       -webkit-background-clip:text;
+       -webkit-text-fill-color:transparent;
+       font-family: 'Chakra Petch', sans-serif;
+       font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+
+   </style>
+    <style>
+    .nav-icon-5{
+        width: 35px;
+        height: 30px;
+        margin: 10px 10px;
+        position: relative;
+        cursor: pointer;
+        display:block;
+    }
+    .nav-icon-5 span{
+        background-color:#ffffff;
+        position: absolute;
+        border-radius: 2px;
+        transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+        width:100%;
+        height: 4px;
+        transition-duration: 500ms
+    }
+    .nav-icon-5 span:nth-child(1){
+        top:0px;
+        left: 0px;
+    }
+    .nav-icon-5 span:nth-child(2){
+        top:13px;
+        left: 0px;
+        opacity:1;
+    }
+    .nav-icon-5 span:nth-child(3){
+        bottom:0px;
+        left: 0px;
+    }
+    .nav-icon-5:not(.open):hover span:nth-child(1){
+        transform: rotate(-3deg) scaleY(1.1);
+    }
+    .nav-icon-5:not(.open):hover span:nth-child(2){
+        transform: rotate(3deg) scaleY(1.1);
+    }
+    .nav-icon-5:not(.open):hover span:nth-child(3){
+        transform: rotate(-4deg) scaleY(1.1);
+    }
+    .nav-icon-5.open span:nth-child(1){
+        transform: rotate(45deg);
+        top: 13px;
+    }
+    .nav-icon-5.open span:nth-child(2){
+        opacity:0;
+    }
+    .nav-icon-5.open span:nth-child(3){
+        transform: rotate(-45deg);
+        top: 13px;
+    }
+
+    .floater{
+        border: 2px solid rgb(255, 255, 255);
+        background-image: linear-gradient(68deg, rgb(0, 81, 231), rgb(0, 89, 255), rgb(30, 127, 255));
+        color: rgb(0, 0, 0);
+        padding: 5px 20px;
+        font-size: 17px;
+        text-shadow: 1px 1px 3px black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 30px;
+        margin: 0 auto;
+        position: relative;
+        bottom:67px;
+        transition-duration: 0.3s;
+        
+    }
+    .floater:hover{
+        background-image: linear-gradient(-68deg, rgb(255, 5, 172), rgb(255, 69, 193), rgb(183, 59, 255));
+        transform: scale(1.1)
+
+    }
+    .rules{
+        width: auto;
+        height: 200px;
+        background-image: url("https://staticg.sportskeeda.com/editor/2022/10/f7da1-16661616016940-1920.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:center;
+        /* https://cdn.donmai.us/sample/1f/7e/__makima_chainsaw_man_drawn_by_ccakira000__sample-1f7e068748552cb2ea0aa083b3f44b2a.jpg */
+    }
+    .rules2{
+        background-image: url(" https://cdn.donmai.us/sample/1f/7e/__makima_chainsaw_man_drawn_by_ccakira000__sample-1f7e068748552cb2ea0aa083b3f44b2a.jpg");
+    }
+
+    .footer{
+        background-color: #1e1f24;
+        border-top: 2px outset rgba(167, 167, 167, 0.658);
+        border-radius: 0px 100px 00px 00px;
+        color: rgba(228, 228, 228, 0.651);
+        background-image: linear-gradient(to right, rgb(14, 13, 31),rgb(8, 11, 26),rgb(0, 0, 0));
+       
+
+    }
+    .footer h1,h2,ul,h4,h3,li,h5{
+        color: rgba(231, 231, 231, 0.568);
+    }
+    .footer h3{
+        text-align: center
+    }
+    .footer h4{
+        padding-left: 10px;
+        display: inline-block;
+    }
+    .footer ul{
+        display:flex;
+        gap: 40px;
+        margin-left: 20px;
+        list-style: none;
+        margin:5px 40px;
+        position: sticky;
+        bottom: 0px;
+    }
+    .footer h5{
+        padding: 10px;
+    }
+    .desimg{
+        width: 30px;
+    }
+    .emo{
+        width: 100px;
+        margin: 2px 10px
+    }
+    #ha{
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 2px solid #050505;
+        color: black;
+        position: relative;
+    }
+    #ha::after, #ha::before{
+        content: "";
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        background: linear-gradient(45deg, #fb0094, #0000ff,#00ff00, #ffff00, #ff0000, #fb0094, #0000ff,#00ff00, #ffff00, #ff0000 );
+        background-size: 400%;
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        z-index: -3;
+        animation: anim 10s linear infinite alternate;
+        
+    }
+    #ha::after{
+        filter: blur(30px);
+    }
+    #nahi{
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-image: linear-gradient(68deg, darkred,red);
+        border: 2px solid #050505;
+        color: black;
+
+
+    }
+   
+
+
+    </style>
+
+    <script>
+    let ha =  document.getElementById("ha");
+    let nahi = document.getElementById("nahi");
+
+    let skyha=()=>{
+        alert("okk thx 🖤")
+
+    }
+    let skynahi=()=>{  
+        for(let i =0; i<100; i++){
+       var conf =  confirm("go and like the playlist rn! 🖕");
+       if(conf===true){
+        alert("ok go and like it thx! 🤝")
+        break;
+       }
+    }
+
+    
+    }
+        
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+        .loader{
+            background-color: #06090f
+        }
+
+        </style>
+        <style>
+    @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Cinzel+Decorative:wght@700&family=New+Rocker&family=Poppins:wght@400;500;700;800&family=Rubik+Wet+Paint&family=UnifrakturCook:wght@700&display=swap');
+    </style>
+</head>
+<!--<body id="body" style="background-color:rgb(101, 166, 250);">-->
+<body id="body" style="background-color:black; background:linear-gradient(to right, rgb(3, 3, 3), #0a0a0a, #000000);" >
+
+    <div id="loader"></div>
+
+    <div class="backt">
+        <div class="navf">
+            <div class="heis">heisprathamesh_1.11</div>
+
+            <div class="circu1" id="circu1">
+                <div class="hamd" onclick="sky()">
+                <div class="burgr"></div>
+            <div class=" burgr burgr1"></div>
+            </div>
+    </div>   
+  
+
+    
+</div>
+             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpnteRBkh1gPopJmHPEDD2L80DTckqB4O-SH3CpfFv4L4DDKKsNma--tAtZ9xBGCgHMRm4HTceMtFJcA3Qn2IwnQHFMqu-yQL_3eIoLlCD9w9es7N11cN5WNg0uMWMs3NecrbG-6jjKFupayu7O9CcztxY7V3dyr2HLeIRrmH3ZyOL_b_1bcSz72fQ/w200-h200/Profile%20picture.png" id="first" alt="prathamesh" style="z-index: 2;">
+</div><!--gh-->
+
+<!--curtain here-->
+<div id="curt" style="display: none;">
+    <div class="contet">
+        <div class="butncenter">
+            <button type="button" class="button1" onclick="sky()">Home</button>
+        </div>
+        <br><br>
+        <div class="butncenter">
+            <a href="reabout.html">
+                <button type="button" class="button1">About Me</button></a>
+            </div>
+            <br><br>
+            <div class="butncenter">
+                <a href="https://instagram.com/heisprathamesh_1.11?igshid=ZDdkNTZiNTM=">
+                    <button type="button" class="button1">My Instagram</button></a>
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+
+<!--here for the curtains creation giving div will be none>blcok-->
+<div id="noner" style="display: block;">
+<!-- desingningfggfg -->
+<!-- <div class="design1">
+    <div class="des des1"></div>
+    <div class="des des2"></div>
+    <div class="des des3"></div>
+</div> -->
+
+<br><br><br>
+<div class="textu"> Welcome To The ONETRACK!!</div>
+
+<br><br><br>
+<div class="to_cent" >
+    <button style="--content:'ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ';" data-aos="fade-up">
+        <div class="left"></div>
+        <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/356/smiling-face-with-sunglasses_1f60e.gif" alt="fire" class="emo">
+        <div class="right"></div>
+    </button>
+</div>
+
+    <br><br>
+<!--<div class="design2">
+    <div class="des5 "></div>
+    <div class="des5 des6"></div>
+    <div class="des5 des7"></div>
+    </div>
+
+    <br><br><br><br> -->
+    <!-- <div class="design1">
+        <div class="des des1"></div>
+        <div class="des des2"></div>
+        <div class="des des3"></div>
+    </div> -->
+      
+        <div class="talk">
+            <p>An useless, timewasting  and casual web created bocz me thoda bored ho gya tha!!</p>
+        </div>
+
+<br><br><br><br>
+<!-- <div class="design3">
+    <div class="des8"></div>
+    <div class="des8 des9"></div>
+    <div class="des8 des10"></div>
+</div>
+    <br><br><br><br><br> -->
+
+    <div class="rakf" data-aos="fade-in">
+       <span class="inf"> ONETRACK!!</span>
+        Playlist for all moods!
+    </div>
+    <div class="to_cent">  
+   <a href="#its"><input type="button" class="floater" value="Scroll Down =>"></a>
+    </div>
+
+<!--now strts links  and main -->
+
+<div class="textu" id="its" style="font-size: 28px;">Some Imp Links</div>
+<br><br>
+
+<main class="main" id="main">
+    
+
+    <button class="divspot a1" data-aos="fade-up">
+        <a href="https://open.spotify.com/playlist/1fQVKiAG0iskiWhR6s4Kyn?si=12d949a7c9394443" class="links" id="spot_link">
+            <img src='https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png' alt="spot" id="spotify" class="link_img">
+            <br>
+            <span class="link_tex"> My Spotify Playlist</span>
+        </a>
+    </button>
+    
+    <button class="divspot a2" data-aos="fade-up">
+        <a href="reabout.html" class="links">
+            <img src="https://www.nicepng.com/png/full/235-2354796_me-bank-logo-linkedin-logo-png-white-circle.png" alt="meek"class="link_img" id="about">
+            <br>
+            <span class="link_tex">Know Me?? Better Know!!</span>
+        </a>
+    </button>
+
+    <button class="divspot a3" data-aos="fade-up">
+        <a href="https://instagram.com/heisprathamesh_1.11?igshid=ZDdkNTZiNTM=" class="links">
+        <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="insta"class="link_img" id="insta">
+        <br>
+        <span class="link_tex">My Instagram</span>
+    </a>
+    </button>
+
+    <button class="divspot aone" data-aos="fade-up">
+        <a href="https://bento.me/prathameshx" class="links" id="spot_link">
+            <img src='https://png.pngitem.com/pimgs/s/146-1468323_gamer-profile-icon-png-transparent-png.png' alt="spot" id="spotify" class="link_img">
+            <br>
+            <span class="link_tex">most Imp links</span>
+        </a>
+    </button>
+
+
+    <button class="divspot a4" data-aos="fade-up">
+        <a href="https://www.snapchat.com/add/prathamexx11?share_id=vxoTpeS6hAo&locale=en-US" class="links">
+        <img src="https://pngimg.com/uploads/snapchat/snapchat_PNG6.png" alt="snap"class="link_img" id="snapd">
+        <br>
+        <span class="link_tex">Snap-Chat</span>
+    </a>
+    </button>
+
+</main>
+<!--Links are ended and main also ended-->
+
+<br><br>
+    <!-- <div class="design3">
+        <div class="des8"></div>
+        <div class="des8 des9"></div>
+        <div class="des8 des10"></div>
+        </div>
+    <br><br> -->
+
+    <section class="creative">
+        
+            <img src="https://pngimg.com/uploads/deadpool/deadpool_PNG99.png" alt="deadppool" id="deadsays" data-aos="fade-in">
+            <div class="to_cent" data-aos="fade-in">
+            <h1>Did you like the playlist??</h1>
+            
+             <input type="button" value="Ha prathamesh" id="ha" onclick="skyha()">
+             <input type="button"  value="nahi prathamesh" id="nahi" onclick="skynahi()">
+
+        </div>
+        <br><br><br>
+
+        <div class="to_cent" data-aos="fade-in" style="justify-content: space-around;">
+         
+            <iframe class="frames" src="https://www.youtube.com/embed/TpZcGhYp4rw"></iframe>
+            <h1><= some recommendations =></h1>
+            <iframe class="frames" src="https://www.youtube.com/embed/pEfrdAtAmqk"></iframe>    
+            
+            
+       </div>
+
+       <div class="to_cent" data-aos="fade-in">
+              
+                 
+       </div>
+
+        <br><br>
+       <div class="to_cent" data-aos="fade-in">
+          
+            <img src="https://em-content.zobj.net/thumbs/72/apple/354/slightly-smiling-face_1f642.png" alt="happy" class="">
+        
+       </div>
+       <br><br><br>
+
+   </section>
+   <section class="creative">
+       <div class="rules"></div>
+       <div class="rules rules2"></div>
+       <br>
+            <div class="to_cent">
+               <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/356/melting-face_1fae0.gif" alt="love" class="emo">
+            
+            </div>     
+
+    </section>
+
+   <section class="to_cent">
+    <div class="icon nav-icon-5">
+        <span ></span>
+        <span ></span>
+        <span ></span>
+    </div>
+   </section>
+
+    <section class="creative" data-aos="fade-in">
+       <article id="article">
+            <img src="https://pngimg.com/uploads/deadpool/small/deadpool_PNG6.png" alt="deadpool" >
+             <h1>okay! lets end this!!</h1>
+             
+             <h1 id="adjust"></h1>
+       </article>
+    </section>
+
+  
+   
+   <img src="https://pngimg.com/uploads/deadpool/small/deadpool_PNG91.png" alt="Deadpool" id="deadreads">
+
+   <footer class="footer" data-aos="fade-in">
+    <h3>Description</h3>
+    <h4>Follow Me:</h4>
+    <ul>
+        <a href="https://instagram.com/heisprathamesh_1.11?igshid=ZDdkNTZiNTM="><li><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="insta" class="desimg"></li></a>
+        <a href="https://open.spotify.com/playlist/1fQVKiAG0iskiWhR6s4Kyn?si=12d949a7c9394443"><li><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" alt="spotify" class="desimg"></li></a>
+        <a href="https://www.youtube.com/channel/UCgLDlx-6KL-TkvmHhcB3xCA"><li><img src="https://www.freepnglogos.com/uploads/youtube-logo-png-images-0.png" alt="youtube" class="desimg"></li></a>
+    </ul>
+    
+
+    <h5>© Prathamesh Karve. All rights reserved.2023 </h5>
+
+   </footer>
+   
+  
+   <!--
+    
+    <div class="ender">Wrapped up</div>
+    <div class="liner"></div>
+    </div> -->
+
+
+    <!--this for the toggle hamburger-->
+
+   
+      <script>
+      const icons = document.querySelectorAll('.icon');
+        icons.forEach (icon => { 
+            icon.addEventListener('click', (event) => {
+                icon.classList.toggle("open");
+                document.getElementById("article").style.display="grid";
+            });
+        });
+
+
+        var now = new Date();
+        var wro = document.getElementById("adjust");
+
+        if( (now.getHours()>="00")&& (now.getHours()<="5")){
+            wro.innerHTML="wese ab tum ja skte ho! wese bhi tumhare kuch jaruri kam honge itni adhiraat ko! hai na?";
+        }
+        else if((now.getHours()>"5")&& (now.getHours()<="10")){
+            wro.innerHTML="ab tum ja skte ho! wese aaj mrnig kafi cool hai! good morning bolna tha pr time nhi hai!  ";
+        }
+        else if((now.getHours()>"10")&& (now.getHours()<="12")){
+            wro.innerHTML="wese ab tum ja skte ho! wese is time se mera kafi cool relation hai!! aur jankar ajeeb lege pr dhoop mera energy source hai! kya matlab sabka hai?  :: plz ye PJ ignore kro! ";
+        }
+
+        else if((now.getHours() > "12")&& (now.getHours()<="16")){
+            wro.innerHTML=(`wese ab tum ja skti ho! aur thanks itni dopeher mei meri fan meri site dekh rhi hai!, jake meri taraf se 1 sprite pilo! dukandar paise mange toh use kehna "deadpool mera boyfriend hai"!! deadpool == Prathamesh!!`);
+
+        }
+        else if((now.getHours()>"16")&& (now.getHours()<="19")){
+            wro.innerHTML="wese ab tum ja skti ho! agar apni khidki se bahr dekh skogi to tumhe pata chalega pune ki evenings kitni awesome hai! me meri gf ke sath aisi evenings mei shawarma khana chahta hu! pr meri koi gf nhi hai!, aur mere dost sale vadhiv hai, woh janvar shawarma ko chole bhature ki tarah khayenge!! aur bill bhrte samey bolenge: b*encho thikse barbie-kyu nhi kiya isne!";
+        }
+        else if((now.getHours()>"19")&& (now.getHours()<="22")){
+            wro.innerHTML= "wese ab tum ja skti ho! good night bolna tha pr tum itni jaldi sone nahi wali!! kuch der baad ake dekhna good night bol dunga! ";
+        }
+        else if((now.getHours()>"22")&& (now.getHours()<="24") &&(now.getHours()>"24")){
+            wro.innerHTML= "wese ab tumhe jana chahiye! 10-12 baje ka time mera sabse bakwas time rehta hai! pr kyu?? ye nhi bataunga! ";
+        
+        }
+      </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 2000,
+    once: true,
+  });
+</script>
+
+</div>
+</body>
+</html>
