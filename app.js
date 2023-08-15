@@ -5,12 +5,8 @@
     var x = document.getElementById("noner");
      var n= document.getElementById("curt");
 
-     // if(x.style.display == "block"){
-     //     x.style.display ="none";
-     // }
-     // else{
-     //     x.style.display = "block"
-     // }
+    console.log("dont steal anyones code like this");
+  
 
      if(n.style.display == "none"){
          n.style.display ="block";
