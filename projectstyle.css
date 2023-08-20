@@ -1,0 +1,100 @@
+    
+     body{
+        height: 140vh;
+    }
+    .secnav{
+        padding-right: 80px;
+    }
+   .secnav li{
+    padding: 10px 20px;
+    position: relative;
+    color: white;
+}
+.secnav li::before{
+    content: "ㅤ";
+    background-color: #ffffff;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.25s ease-out; 
+}
+.secnav li:hover::before{
+    transform:scaleX(1);
+    transform-origin:left;
+
+}
+.secnav li:hover{
+    color: #cacaca;
+}
+
+.pro-sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 50px 0px;
+
+}
+.main_heading{
+    color: rgb(255, 0, 0);
+    font-size: 34px;
+    font-family: 'Rubik Wet Paint';
+}
+.pro-sec2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.num{
+    background-color: #5e77ad2f;
+    height:auto;
+    width:100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'poppins';
+}
+.name{
+    font-size: 23px;
+    font-weight: 700;
+    margin: 10px 0px;
+    color: #ffffff;
+    font-family: verdana;
+    text-transform: uppercase;
+}
+.description{
+    color: #f7f7f7;
+}
+.child1{
+    width: 50%;
+    color: white;
+}
+.child2 button{
+    width: 150px;
+    height:50px;
+    background-color:#0066ff;
+    color: white;
+    transition: all 0.4s;    
+    transform-origin: right;
+
+}
+.child2 button:hover{
+    background-color: white;
+    color: #0066ff;
+}
+@media (max-width:767px) {
+    .child1{
+        width: 90%;
+    }
+}
