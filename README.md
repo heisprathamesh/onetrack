@@ -4,6 +4,7 @@
 <ul>
   
   <li>Animations on scroll</li>
-  <li></li>
-  <li></li>
+  <li>Background and text effects</li>
+  <li>Cool Cards and flipers</li>
+  <li>Responsive and fire navbar</li>
 </ul>
